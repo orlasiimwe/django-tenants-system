@@ -1,4 +1,6 @@
 from django.db import models
+from django.utils import timezone
+
 
 class Tenant(models.Model):
     id=models.IntegerField(primary_key=True)

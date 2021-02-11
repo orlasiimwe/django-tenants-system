@@ -26,7 +26,7 @@ class TenantForm(forms.Form):
         required=True,
         widget=forms.TextInput(attrs={
             "class": "form-control",
-            "placeholder": "Temperature"
+            "placeholder": "Temperature in Celicius"
         })
     )
     id_no = forms.CharField(
